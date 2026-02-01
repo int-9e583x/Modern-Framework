@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/ModernDotNetFramework.Api.props" />
+</Project>

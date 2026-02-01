@@ -1,11 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\ModernDotNetFramework.Core\ModernDotNetFramework.Core.csproj" />
+    <ProjectReference Include="..\ModernDotNetFramework.Application\ModernDotNetFramework.Application.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Localization.Abstractions" Version="10.0.2" />
   </ItemGroup>
 
   <PropertyGroup>

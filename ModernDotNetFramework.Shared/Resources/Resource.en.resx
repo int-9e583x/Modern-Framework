@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="Welcome" xml:space="preserve">
+    <value>Welcome to Modern .NET Framework!</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>Operation completed successfully.</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>An unexpected error occurred.</value>
+  </data>
+</root>

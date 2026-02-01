@@ -1,0 +1,170 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Microsoft.Extensions.Localization.Abstractions/10.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Localization.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Localization.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "ModernDotNetFramework.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "ModernDotNetFramework.Domain": "1.0.0",
+          "ModernDotNetFramework.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ModernDotNetFramework.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ModernDotNetFramework.Application.dll": {}
+        }
+      },
+      "ModernDotNetFramework.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "ModernDotNetFramework.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ModernDotNetFramework.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ModernDotNetFramework.Domain.dll": {}
+        }
+      },
+      "ModernDotNetFramework.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ModernDotNetFramework.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ModernDotNetFramework.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Extensions.Localization.Abstractions/10.0.2": {
+      "sha512": "O28Xu6BMUYfFwzK2U5OyctQDrcGC3cewL026Af5WaQKmsdhJK1KEmCFloC2ZqHhh4ldizJOg4j/BuBEJeRZcrw==",
+      "type": "package",
+      "path": "microsoft.extensions.localization.abstractions/10.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net10.0/Microsoft.Extensions.Localization.Abstractions.dll",
+        "lib/net10.0/Microsoft.Extensions.Localization.Abstractions.xml",
+        "lib/net462/Microsoft.Extensions.Localization.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.Localization.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Localization.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Localization.Abstractions.xml",
+        "microsoft.extensions.localization.abstractions.10.0.2.nupkg.sha512",
+        "microsoft.extensions.localization.abstractions.nuspec"
+      ]
+    },
+    "ModernDotNetFramework.Application/1.0.0": {
+      "type": "project",
+      "path": "../ModernDotNetFramework.Application/ModernDotNetFramework.Application.csproj",
+      "msbuildProject": "../ModernDotNetFramework.Application/ModernDotNetFramework.Application.csproj"
+    },
+    "ModernDotNetFramework.Domain/1.0.0": {
+      "type": "project",
+      "path": "../ModernDotNetFramework.Domain/ModernDotNetFramework.Domain.csproj",
+      "msbuildProject": "../ModernDotNetFramework.Domain/ModernDotNetFramework.Domain.csproj"
+    },
+    "ModernDotNetFramework.Shared/1.0.0": {
+      "type": "project",
+      "path": "../ModernDotNetFramework.Shared/ModernDotNetFramework.Shared.csproj",
+      "msbuildProject": "../ModernDotNetFramework.Shared/ModernDotNetFramework.Shared.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Microsoft.Extensions.Localization.Abstractions >= 10.0.2",
+      "ModernDotNetFramework.Application >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/ubuntu/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Infrastructure/ModernDotNetFramework.Infrastructure.csproj",
+      "projectName": "ModernDotNetFramework.Infrastructure",
+      "projectPath": "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Infrastructure/ModernDotNetFramework.Infrastructure.csproj",
+      "packagesPath": "/home/ubuntu/.nuget/packages/",
+      "outputPath": "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Infrastructure/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/ubuntu/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Application/ModernDotNetFramework.Application.csproj": {
+              "projectPath": "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Application/ModernDotNetFramework.Application.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "Microsoft.Extensions.Localization.Abstractions": {
+            "target": "Package",
+            "version": "[10.0.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/home/ubuntu/.dotnet/sdk/8.0.417/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

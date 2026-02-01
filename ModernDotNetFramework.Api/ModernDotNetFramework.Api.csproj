@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ModernDotNetFramework.Core\ModernDotNetFramework.Core.csproj" />
+    <ProjectReference Include="..\ModernDotNetFramework.Application\ModernDotNetFramework.Application.csproj" />
     <ProjectReference Include="..\ModernDotNetFramework.Infrastructure\ModernDotNetFramework.Infrastructure.csproj" />
   </ItemGroup>
 

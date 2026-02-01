@@ -1,3 +1,6 @@
+using Microsoft.AspNetCore.Localization;
+using System.Globalization;
+using ModernDotNetFramework.Application;
 using ModernDotNetFramework.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -7,13 +10,23 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Register Custom Services
-builder.Services.AddScoped<ISimpleLogger, SimpleLogger>();
+// 1. Configure Localization
+builder.Services.AddLocalization();
+
+// 2. Register Application Services
+builder.Services.AddScoped<IGreetingService, GreetingService>();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-// Enable Swagger for both Development and Production for demonstration purposes
+// 3. Configure Supported Cultures
+var supportedCultures = new[] { "en", "zh" };
+var localizationOptions = new RequestLocalizationOptions()
+    .SetDefaultCulture("en")
+    .AddSupportedCultures(supportedCultures)
+    .AddSupportedUICultures(supportedCultures);
+
+app.UseRequestLocalization(localizationOptions);
+
 app.UseSwagger();
 app.UseSwaggerUI();
 
