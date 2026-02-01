@@ -49,5 +49,3 @@ The framework follows the **"Lobster Way"** of localization, supporting multiple
 ## 📝 License
 Licensed under the MIT License.
 
----
-*Inspired by OpenClaw | Reconstructed by Manus Agent*
