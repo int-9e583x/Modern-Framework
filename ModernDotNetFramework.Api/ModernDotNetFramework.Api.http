@@ -1,0 +1,6 @@
+@ModernDotNetFramework.Api_HostAddress = http://localhost:5064
+
+GET {{ModernDotNetFramework.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
