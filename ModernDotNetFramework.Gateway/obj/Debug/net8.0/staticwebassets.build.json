@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "bBJe1lpujniAMfIx+78vtQ44VnIQauIHZ+59e+LjZ+4=",
+  "Source": "ModernDotNetFramework.Gateway",
+  "BasePath": "_content/ModernDotNetFramework.Gateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

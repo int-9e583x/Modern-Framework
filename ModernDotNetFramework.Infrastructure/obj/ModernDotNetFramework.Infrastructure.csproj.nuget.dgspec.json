@@ -4,14 +4,14 @@
     "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Infrastructure/ModernDotNetFramework.Infrastructure.csproj": {}
   },
   "projects": {
-    "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Application/ModernDotNetFramework.Application.csproj": {
+    "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Core/ModernDotNetFramework.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Application/ModernDotNetFramework.Application.csproj",
-        "projectName": "ModernDotNetFramework.Application",
-        "projectPath": "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Application/ModernDotNetFramework.Application.csproj",
+        "projectUniqueName": "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Core/ModernDotNetFramework.Core.csproj",
+        "projectName": "ModernDotNetFramework.Core",
+        "projectPath": "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Core/ModernDotNetFramework.Core.csproj",
         "packagesPath": "/home/ubuntu/.nuget/packages/",
-        "outputPath": "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Application/obj/",
+        "outputPath": "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/ubuntu/.nuget/NuGet/NuGet.Config"
@@ -28,9 +28,6 @@
             "projectReferences": {
               "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Domain/ModernDotNetFramework.Domain.csproj": {
                 "projectPath": "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Domain/ModernDotNetFramework.Domain.csproj"
-              },
-              "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Shared/ModernDotNetFramework.Shared.csproj": {
-                "projectPath": "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Shared/ModernDotNetFramework.Shared.csproj"
               }
             }
           }
@@ -153,8 +150,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Application/ModernDotNetFramework.Application.csproj": {
-                "projectPath": "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Application/ModernDotNetFramework.Application.csproj"
+              "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Core/ModernDotNetFramework.Core.csproj": {
+                "projectPath": "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Core/ModernDotNetFramework.Core.csproj"
               }
             }
           }
@@ -174,7 +171,7 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.Extensions.Localization.Abstractions": {
+            "Microsoft.Extensions.Logging.Abstractions": {
               "target": "Package",
               "version": "[10.0.2, )"
             }

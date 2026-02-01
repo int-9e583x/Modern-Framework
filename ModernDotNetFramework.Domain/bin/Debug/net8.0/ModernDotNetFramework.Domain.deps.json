@@ -20,14 +20,6 @@
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
-        },
-        "resources": {
-          "en/ModernDotNetFramework.Shared.resources.dll": {
-            "locale": "en"
-          },
-          "zh/ModernDotNetFramework.Shared.resources.dll": {
-            "locale": "zh"
-          }
         }
       }
     }

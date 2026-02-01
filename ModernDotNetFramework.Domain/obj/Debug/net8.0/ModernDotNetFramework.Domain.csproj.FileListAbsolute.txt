@@ -3,8 +3,6 @@
 /home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Domain/bin/Debug/net8.0/ModernDotNetFramework.Domain.pdb
 /home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Domain/bin/Debug/net8.0/ModernDotNetFramework.Shared.dll
 /home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Domain/bin/Debug/net8.0/ModernDotNetFramework.Shared.pdb
-/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Domain/bin/Debug/net8.0/en/ModernDotNetFramework.Shared.resources.dll
-/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Domain/bin/Debug/net8.0/zh/ModernDotNetFramework.Shared.resources.dll
 /home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Domain/obj/Debug/net8.0/ModernDotNetFramework.Domain.csproj.AssemblyReference.cache
 /home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Domain/obj/Debug/net8.0/ModernDotNetFramework.Domain.GeneratedMSBuildEditorConfig.editorconfig
 /home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Domain/obj/Debug/net8.0/ModernDotNetFramework.Domain.AssemblyInfoInputs.cache

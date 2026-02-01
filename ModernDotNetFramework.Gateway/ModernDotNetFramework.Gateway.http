@@ -1,0 +1,6 @@
+@ModernDotNetFramework.Gateway_HostAddress = http://localhost:5150
+
+GET {{ModernDotNetFramework.Gateway_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

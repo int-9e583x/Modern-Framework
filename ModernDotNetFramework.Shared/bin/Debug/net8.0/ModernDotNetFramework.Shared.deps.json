@@ -9,14 +9,6 @@
       "ModernDotNetFramework.Shared/1.0.0": {
         "runtime": {
           "ModernDotNetFramework.Shared.dll": {}
-        },
-        "resources": {
-          "en/ModernDotNetFramework.Shared.resources.dll": {
-            "locale": "en"
-          },
-          "zh/ModernDotNetFramework.Shared.resources.dll": {
-            "locale": "zh"
-          }
         }
       }
     }

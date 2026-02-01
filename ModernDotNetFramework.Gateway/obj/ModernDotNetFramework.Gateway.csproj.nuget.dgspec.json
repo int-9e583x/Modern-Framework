@@ -1,0 +1,397 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Gateway/ModernDotNetFramework.Gateway.csproj": {}
+  },
+  "projects": {
+    "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Core/ModernDotNetFramework.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Core/ModernDotNetFramework.Core.csproj",
+        "projectName": "ModernDotNetFramework.Core",
+        "projectPath": "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Core/ModernDotNetFramework.Core.csproj",
+        "packagesPath": "/home/ubuntu/.nuget/packages/",
+        "outputPath": "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ubuntu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Domain/ModernDotNetFramework.Domain.csproj": {
+                "projectPath": "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Domain/ModernDotNetFramework.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/ubuntu/.dotnet/sdk/8.0.417/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Domain/ModernDotNetFramework.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Domain/ModernDotNetFramework.Domain.csproj",
+        "projectName": "ModernDotNetFramework.Domain",
+        "projectPath": "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Domain/ModernDotNetFramework.Domain.csproj",
+        "packagesPath": "/home/ubuntu/.nuget/packages/",
+        "outputPath": "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ubuntu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Shared/ModernDotNetFramework.Shared.csproj": {
+                "projectPath": "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Shared/ModernDotNetFramework.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/ubuntu/.dotnet/sdk/8.0.417/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Gateway/ModernDotNetFramework.Gateway.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Gateway/ModernDotNetFramework.Gateway.csproj",
+        "projectName": "ModernDotNetFramework.Gateway",
+        "projectPath": "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Gateway/ModernDotNetFramework.Gateway.csproj",
+        "packagesPath": "/home/ubuntu/.nuget/packages/",
+        "outputPath": "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Gateway/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ubuntu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Core/ModernDotNetFramework.Core.csproj": {
+                "projectPath": "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Core/ModernDotNetFramework.Core.csproj"
+              },
+              "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Infrastructure/ModernDotNetFramework.Infrastructure.csproj": {
+                "projectPath": "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Infrastructure/ModernDotNetFramework.Infrastructure.csproj"
+              },
+              "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Modules/ModernDotNetFramework.Modules.csproj": {
+                "projectPath": "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Modules/ModernDotNetFramework.Modules.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/ubuntu/.dotnet/sdk/8.0.417/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Infrastructure/ModernDotNetFramework.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Infrastructure/ModernDotNetFramework.Infrastructure.csproj",
+        "projectName": "ModernDotNetFramework.Infrastructure",
+        "projectPath": "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Infrastructure/ModernDotNetFramework.Infrastructure.csproj",
+        "packagesPath": "/home/ubuntu/.nuget/packages/",
+        "outputPath": "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ubuntu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Core/ModernDotNetFramework.Core.csproj": {
+                "projectPath": "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Core/ModernDotNetFramework.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[10.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/ubuntu/.dotnet/sdk/8.0.417/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Modules/ModernDotNetFramework.Modules.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Modules/ModernDotNetFramework.Modules.csproj",
+        "projectName": "ModernDotNetFramework.Modules",
+        "projectPath": "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Modules/ModernDotNetFramework.Modules.csproj",
+        "packagesPath": "/home/ubuntu/.nuget/packages/",
+        "outputPath": "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Modules/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ubuntu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Core/ModernDotNetFramework.Core.csproj": {
+                "projectPath": "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Core/ModernDotNetFramework.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/ubuntu/.dotnet/sdk/8.0.417/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Shared/ModernDotNetFramework.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Shared/ModernDotNetFramework.Shared.csproj",
+        "projectName": "ModernDotNetFramework.Shared",
+        "projectPath": "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Shared/ModernDotNetFramework.Shared.csproj",
+        "packagesPath": "/home/ubuntu/.nuget/packages/",
+        "outputPath": "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ubuntu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/ubuntu/.dotnet/sdk/8.0.417/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

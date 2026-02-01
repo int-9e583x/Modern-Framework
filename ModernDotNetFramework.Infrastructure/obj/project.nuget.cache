@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "jJhnOESHXZk=",
+  "dgSpecHash": "BHkIpxRGHhQ=",
   "success": true,
   "projectFilePath": "/home/ubuntu/ModernDotNetFramework/ModernDotNetFramework.Infrastructure/ModernDotNetFramework.Infrastructure.csproj",
   "expectedPackageFiles": [
-    "/home/ubuntu/.nuget/packages/microsoft.extensions.localization.abstractions/10.0.2/microsoft.extensions.localization.abstractions.10.0.2.nupkg.sha512"
+    "/home/ubuntu/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.2/microsoft.extensions.dependencyinjection.abstractions.10.0.2.nupkg.sha512",
+    "/home/ubuntu/.nuget/packages/microsoft.extensions.logging.abstractions/10.0.2/microsoft.extensions.logging.abstractions.10.0.2.nupkg.sha512",
+    "/home/ubuntu/.nuget/packages/system.diagnostics.diagnosticsource/10.0.2/system.diagnostics.diagnosticsource.10.0.2.nupkg.sha512"
   ],
   "logs": []
 }
